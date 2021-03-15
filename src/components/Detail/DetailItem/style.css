@@ -1,0 +1,52 @@
+.detail {
+   background-color: #0a2029;
+   height: calc(200vh);
+}
+.movieDetailInfo {
+   position: relative;
+   width: 100%;
+   height: 50%;
+}
+.detailInfo {
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+}
+.blurImg {
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 100%;
+   display: block;
+   max-height: calc(100vh);
+   filter: blur(7px);
+   -webkit-filter: blur(7px);
+}
+.movieDetailCalendar {
+   position: relative;
+   height: 50%;
+   top: 0;
+}
+.movieDetailCalendar .detailCal {
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+}
+.detail .nav-tabs .nav__unactive {
+   color: white;
+   font-weight: bold;
+   transition: all 0.3s;
+   border: 0;
+   font-size: 1.8rem;
+}
+.detail .nav-tabs .nav__unactive.active {
+   color: red;
+   font-weight: bold;
+   font-size: 2.2rem;
+   cursor: context-menu;
+}
+.detail .nav-tabs .nav__unactive:hover {
+   font-size: 2.2rem;
+}

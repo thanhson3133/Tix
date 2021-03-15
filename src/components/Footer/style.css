@@ -1,0 +1,46 @@
+.footer {
+   height: auto;
+   background-color: #222;
+   padding: 20px 0;
+}
+.iconConnect {
+   width: 35px;
+   height: 35px;
+   border-radius: 50%;
+   background-color: #fff;
+   margin: 0 20px 20px 20px;
+}
+.vslogo {
+   width: auto;
+   height: 35px;
+   margin-right: 20px;
+}
+.licenseLogo img {
+   width: 150px;
+   border-radius: 10px;
+   height: 50px;
+}
+.hrline {
+   border-bottom: 1px solid #4a4a4a;
+}
+.footerTitle {
+   font-weight: 700;
+   color: white;
+}
+.footerList {
+   display: flex;
+   color: white;
+   text-align: left;
+}
+.footerList > ul {
+   list-style: none;
+}
+.footerList > ul > li > a {
+   color: #949494;
+   text-decoration: none;
+   font-weight: 600;
+   font-size: 0.8rem;
+}
+.footerList > ul > li > a:hover {
+   color: white;
+}

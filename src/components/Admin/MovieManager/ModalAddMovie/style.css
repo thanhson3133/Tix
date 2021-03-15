@@ -1,0 +1,21 @@
+.form-group,
+.input-group {
+   position: relative;
+}
+.alarm {
+   height: 25px;
+   font-size: 1rem;
+   margin-top: 10px;
+   z-index: 2;
+}
+.form-group .alarm::after {
+   content: "";
+   z-index: 1;
+
+   position: absolute;
+   left: 5%;
+   bottom: 25px;
+   border-bottom: 8px solid #dc3545;
+   border-right: 8px solid transparent;
+   border-left: 8px solid transparent;
+}

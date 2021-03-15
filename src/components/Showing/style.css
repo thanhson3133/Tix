@@ -1,0 +1,89 @@
+.showing {
+   background-color: white;
+}
+.showing__Heading {
+   display: flex;
+}
+.verical__line {
+   width: 3px;
+   height: 100px;
+   margin-right: 10px;
+   background-color: red;
+}
+.heading__title {
+   display: flex;
+   align-items: center;
+   color: black;
+}
+.slick-next {
+   z-index: 10;
+   height: 100%;
+   width: 5%;
+
+   right: -4%;
+   top: 47%;
+
+   background-image: url("https://tix.vn/app/assets/img/icons/next-session.png");
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: contain;
+}
+.slick-next:hover {
+   background-image: url("https://tix.vn/app/assets/img/icons/next-session.png");
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: contain;
+}
+.slick-prev {
+   z-index: 10;
+   height: 100%;
+   width: 5%;
+   left: -4%;
+   top: 47%;
+   background-image: url("https://tix.vn/app/assets/img/icons/back-session.png");
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: contain;
+}
+.slick-prev:hover {
+   background-image: url("https://tix.vn/app/assets/img/icons/back-session.png");
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: contain;
+}
+.navCenter {
+   justify-content: center;
+   border: 0px;
+}
+.slick-next::before {
+   font-size: 0;
+}
+.slick-prev::before {
+   font-size: 0;
+}
+.slick-dots li button:before {
+   font-size: 0.5rem;
+   color: white;
+   display: none;
+}
+.card .showimg {
+   width: 100%;
+   height: 300px;
+}
+.card .card-body {
+   bottom: 0;
+   padding: 0;
+}
+.nav-tabs .nav__unactive {
+   color: black;
+   transition: all 0.3s;
+   border: 0;
+}
+.nav-tabs .nav-link.active {
+   color: red;
+   font-size: 1.3rem;
+   cursor: context-menu;
+}
+.nav-tabs .nav__unactive:hover {
+   font-size: 1.3rem;
+}

@@ -1,0 +1,62 @@
+#cinema {
+   border-radius: 10px;
+   max-height: 100%;
+}
+.cinema__logo {
+   height: 60px;
+   margin-bottom: 50px;
+}
+.crollBar {
+   overflow: overlay;
+   height: 500px;
+}
+.crollBar::-webkit-scrollbar {
+   width: 3px;
+   /* background-color: red; */
+}
+.crollBar::-webkit-scrollbar-track {
+   box-shadow: inset 0 0 5px grey;
+}
+.crollBar::-webkit-scrollbar-thumb {
+   background-color: #777;
+}
+.cinema__logo {
+   opacity: 0.5;
+}
+.cinema__logo:hover {
+   opacity: 1;
+}
+.nav-pills .active {
+   opacity: 1;
+}
+.cinemaNameColor {
+   color: #8bc541;
+   font-weight: bold;
+   font-size: 15px;
+}
+.movieTimeBtn {
+   font-size: 14px;
+   font-weight: 400;
+   margin: 0 10px 10px 0;
+   padding: 5px 0;
+   transition: all .2s;
+   text-decoration: none;
+   text-align: center;
+   background-color: rgba(246,246,246,.5);
+   border-radius: 7px;
+   color: #9b9b9b;
+   border: 1px solid #e4e4e4;
+   width: 20%;
+}
+.movieTimeBtn:hover {
+   box-shadow: 0px 2px 4px -1px rgba(0, 0, 0, 0.2),
+      0px 4px 5px 0px rgba(0, 0, 0, 0.14), 0px 1px 10px 0px rgba(0, 0, 0, 0.12);
+      
+}
+.movieTimeBtn span{
+   color:#108f3e;
+   font-size: 15px;
+}
+.movieTimeBtn:hover span{
+   color:#fb4226;
+}

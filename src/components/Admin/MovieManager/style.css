@@ -1,0 +1,12 @@
+.table td {
+   vertical-align: middle;
+}
+.trBreak {
+   width: 200px;
+}
+.showBtn {
+   opacity: 0;
+}
+.table tr:hover .showBtn {
+   opacity: 1;
+}

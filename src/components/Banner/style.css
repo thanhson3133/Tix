@@ -1,0 +1,10 @@
+.carousel-control-next-icon {
+   width: 80px;
+   height: 80px;
+   background-image: url("https://tix.vn/app/assets/img/icons/next-session.png");
+}
+.carousel-control-prev-icon {
+   width: 80px;
+   height: 80px;
+   background-image: url("https://tix.vn/app/assets/img/icons/back-session.png");
+}

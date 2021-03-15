@@ -1,0 +1,92 @@
+.card{
+   border: none;
+}
+.film__info {
+   height: 50px;
+   transition: all 0.5s;
+   position: relative;
+}
+.film__name {
+   -webkit-line-clamp: 2;
+   -webkit-box-orient: vertical;
+   text-overflow: ellipse;
+   overflow: hidden;
+   width: 100%;
+   margin-left: 0px;
+   margin-top: 15px;
+}
+.badge{
+   background-color: #fb4226;
+   color: white;
+}
+.trailerimg {
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+
+   width: 80px;
+   height: 80px;
+   opacity: 0;
+   transition: 0.5s;
+}
+.trailerimg img {
+   width: 80px;
+   height: 80px;
+}
+.film__overlay {
+   position: absolute;
+   bottom: 0;
+   width: 100%;
+   height: 100%;
+   opacity: 0;
+   background: linear-gradient(to top, transparent 100%);
+   transition: all 0.5s;
+}
+.btnOverlay {
+   position: absolute;
+   opacity: 0;
+   top: 90%;
+   height: 50px;
+   width: 100%;
+   transition: all 0.5s;
+   background-color: #fb4226;
+   color: white;
+   font-size: 20px;
+}
+.film__rate {
+   position: absolute;
+   top: 2%;
+   right: 3%;
+   width: 60px;
+   height: 40px;
+   background-color: rgba(12, 27, 54, 0.8);
+   border-radius: 5px;
+   text-align: center;
+}
+.film__rate .rate__point {
+   color: white;
+   font-weight: bold;
+   transform: scaleY(1.2);
+   margin: 0 !important;
+}
+.film__rate .rate__star {
+   margin: 0 !important;
+   font-size: 8px;
+   color: red;
+}
+.card:hover .film__overlay {
+   opacity: 1;
+}
+.card:hover .btnOverlay {
+   opacity: 1;
+}
+.card:hover .film__info {
+   opacity: 0;
+}
+.card:hover .trailerimg {
+   opacity: 1;
+}
+.card .trailerimg:hover {
+   opacity: 0.6;
+}

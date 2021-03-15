@@ -1,0 +1,38 @@
+.leftBar {
+   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+   min-height: 100vh;
+}
+.effect {
+   position: relative;
+   text-decoration: none;
+   height: 80px;
+   line-height: 80px;
+   text-align: center;
+   color: black;
+   font-weight: bold;
+   box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+}
+.effect1 .active {
+   background-color: #007bff;
+}
+.effect:hover {
+   text-decoration: none !important;
+   color: black;
+   font-weight: bold;
+}
+
+.effect::before {
+   content: "";
+   top: 0;
+   left: 0;
+   width: 0;
+   height: 100%;
+   transition: width 0.3s linear;
+
+   position: absolute;
+   z-index: -1;
+   background-color: #fb4226af;
+}
+.effect:hover::before {
+   width: 100%;
+}

@@ -1,0 +1,71 @@
+.checkout {
+   height: auto;
+}
+.ticket {
+   padding: 5%;
+}
+.ticketTotal {
+   text-align: center;
+   margin-bottom: 30px;
+}
+.ticketInfo {
+   display: flex;
+   margin-bottom: 30px;
+   padding-bottom: 10px;
+}
+.ticketChair {
+   margin-bottom: 30px;
+}
+.accountInfo {
+   margin-bottom: 30px;
+   padding-bottom: 10px;
+}
+.datve {
+   width: 100%;
+   height: 100px;
+   margin: 50px 0 0 0;
+   text-transform: uppercase;
+   font-size: 1.5rem;
+   font-family: "Poppins";
+   font-weight: bolder;
+   overflow: hidden;
+   position: relative;
+   z-index: 1;
+   background-image: linear-gradient(223deg,#b4ec51 0,#429321 100%); 
+   color: white;
+}
+.datve::before {
+   content: "";
+   position: absolute;
+   z-index: -1;
+   background-color: rgb(70, 68, 68);
+}
+.datve--left::before {
+   top: 0;
+   left: -20px;
+   width: 0;
+   height: 200%;
+   transition: width 0.3s linear;
+   transform: skew(50deg);
+}
+.datve--left:hover::before {
+   width: 200%;
+}
+
+.chairInfo {
+   font-size: 20px;
+   padding-top: 20px;
+}
+.btnChair {
+   font-size: 1.3rem;
+   margin: 0 !important;
+   padding: 0 !important;
+}
+.timer span {
+   font-size: 2rem;
+   font-weight: bold;
+}
+.timer p {
+   padding: 0;
+   margin: 0;
+}

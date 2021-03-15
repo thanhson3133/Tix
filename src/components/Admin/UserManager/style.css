@@ -1,0 +1,6 @@
+.showBtn {
+   opacity: 0;
+}
+.table tr:hover .showBtn {
+   opacity: 1;
+}

@@ -1,0 +1,21 @@
+.carousel-overlay {
+   position: absolute;
+   bottom: 50%;
+   left: 50%;
+   right: 50%;
+}
+.play-trailer {
+   opacity: 0;
+   transition: all 0.7s;
+}
+.play-trailer img {
+   width: 80px !important;
+   height: 80px !important;
+}
+.carousel-item:hover .play-trailer {
+   opacity: 1;
+}
+.play-trailer:hover {
+   opacity: 0.6 !important;
+   cursor: pointer;
+}

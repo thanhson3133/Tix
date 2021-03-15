@@ -1,0 +1,9 @@
+.newTitle a {
+   text-decoration: none;
+   color: black;
+   transition: all 0.6s;
+}
+.newTitle a:hover {
+   cursor: pointer;
+   color: #fa5238;
+}

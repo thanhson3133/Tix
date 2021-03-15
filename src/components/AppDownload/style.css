@@ -1,0 +1,46 @@
+.aboutApp {
+   background-image: url("https://tix.vn/app/assets/img/icons/backapp.jpg");
+   background-attachment: fixed;
+   display: flex;
+   width: 100%;
+   background-size: cover;
+   align-items: center;
+   padding: 100px 0;
+}
+.aboutLeft {
+   margin-top: auto;
+   margin-bottom: auto;
+   color: white;
+}
+.aboutRight {
+   position: relative;
+}
+.app-free{
+   background-color:#fb4226;
+   color: white;
+}
+.slideScreen {
+   position: absolute;
+   overflow: hidden;
+   top: 50%;
+   left: 50%;
+   width: 39%;
+   transform: translate(-50%, -50%);
+}
+.rearPhone {
+   object-fit: cover;
+   padding: 0 28%;
+   position: absolute;
+   overflow: hidden;
+   top: 50%;
+   left: 50%;
+   width: 39%;
+   transform: translate(-50%, -50%);
+}
+.slideScreen .slick-list {
+   border-radius: 20px;
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   -ms-border-radius: 20px;
+   -o-border-radius: 20px;
+}
